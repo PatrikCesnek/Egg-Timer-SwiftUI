@@ -8,7 +8,7 @@
 import AVFoundation
 import SwiftUI
 
-struct ContentView: View {
+struct EggTimerView: View {
     @State private var timer = Timer.publish(every: 0.1, on: .main, in: .common).autoconnect()
     @State private var eggType = "Soft"
     var eggHardness = ["Soft", "Medium", "Hard"]
@@ -33,8 +33,6 @@ struct ContentView: View {
                     Button(action: {
                         // Set timer for 3 minutes
                         eggType = eggHardness[0]
-//                        total = 3.0
-//                        isActive = true
                         setTimer(for: 3)
                     }) {
                         Image("soft_egg")
@@ -44,8 +42,6 @@ struct ContentView: View {
                     Button(action: {
                         // Set timer for 4 minutes
                         eggType = eggHardness[1]
-//                        total = 4.0
-//                        isActive = true
                         setTimer(for: 4)
                     }) {
                         Image("medium_egg")
@@ -55,8 +51,6 @@ struct ContentView: View {
                     Button(action: {
                         // Set timer for 7 minutes
                         eggType = eggHardness[2]
-//                        total = 7.0
-//                        isActive = true
                         setTimer(for: 7)
                     }) {
                         Image("hard_egg")
@@ -145,6 +139,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        EggTimerView()
     }
 }

@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5905EAED25B226A30094B5A0 /* EggTimer_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5905EAEC25B226A30094B5A0 /* EggTimer_SwiftUIApp.swift */; };
-		5905EAEF25B226A30094B5A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5905EAEE25B226A30094B5A0 /* ContentView.swift */; };
+		5905EAEF25B226A30094B5A0 /* EggTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5905EAEE25B226A30094B5A0 /* EggTimerView.swift */; };
 		5905EAF125B226A60094B5A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5905EAF025B226A60094B5A0 /* Assets.xcassets */; };
 		5905EAF425B226A60094B5A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5905EAF325B226A60094B5A0 /* Preview Assets.xcassets */; };
 		5905EAFD25B226EA0094B5A0 /* alarm_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5905EAFC25B226EA0094B5A0 /* alarm_sound.mp3 */; };
@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		5905EAE925B226A30094B5A0 /* EggTimer-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EggTimer-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5905EAEC25B226A30094B5A0 /* EggTimer_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggTimer_SwiftUIApp.swift; sourceTree = "<group>"; };
-		5905EAEE25B226A30094B5A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5905EAEE25B226A30094B5A0 /* EggTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggTimerView.swift; sourceTree = "<group>"; };
 		5905EAF025B226A60094B5A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5905EAF325B226A60094B5A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5905EAF525B226A60094B5A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				5905EAEC25B226A30094B5A0 /* EggTimer_SwiftUIApp.swift */,
-				5905EAEE25B226A30094B5A0 /* ContentView.swift */,
+				5905EAEE25B226A30094B5A0 /* EggTimerView.swift */,
 				5905EB0125B2ECDE0094B5A0 /* HardnessProgressView.swift */,
 				5905EAF025B226A60094B5A0 /* Assets.xcassets */,
 				5905EAF525B226A60094B5A0 /* Info.plist */,
@@ -146,7 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5905EB0225B2ECDE0094B5A0 /* HardnessProgressView.swift in Sources */,
-				5905EAEF25B226A30094B5A0 /* ContentView.swift in Sources */,
+				5905EAEF25B226A30094B5A0 /* EggTimerView.swift in Sources */,
 				5905EAED25B226A30094B5A0 /* EggTimer_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
